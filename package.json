@@ -16,5 +16,10 @@
     "url": "https://github.com/Tristan-Tenders/cautious-octo-couscous/issues"
   },
   "homepage": "https://github.com/Tristan-Tenders/cautious-octo-couscous#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "pg": "^8.18.0"
+  }
 }
