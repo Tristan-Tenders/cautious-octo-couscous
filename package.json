@@ -19,7 +19,7 @@
   "homepage": "https://github.com/Tristan-Tenders/cautious-octo-couscous#readme",
   "description": "",
   "dependencies": {
-    "dotenv": "16.0.0",
+    "dotenv": "17.3.1",
     "express": "^4.22.1",
     "pg": "8.11.0"
   },
