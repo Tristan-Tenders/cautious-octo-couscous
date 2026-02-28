@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "test": "echo \"No tests yet\" && exit 0",
+  "lint": "eslint ."
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tristan-Tenders/cautious-octo-couscous.git"
@@ -18,8 +19,11 @@
   "homepage": "https://github.com/Tristan-Tenders/cautious-octo-couscous#readme",
   "description": "",
   "dependencies": {
-    "dotenv": "^17.3.1",
-    "express": "^5.2.1",
-    "pg": "^8.18.0"
+    "dotenv": "16.0.0",
+    "express": "^4.22.1",
+    "pg": "8.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
   }
 }
